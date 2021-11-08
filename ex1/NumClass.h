@@ -1,12 +1,8 @@
-#ifndef NumClass_H_
-#define NumClass_H_
+#ifndef NUMCLASS_H
+#define NUMCLASS_H
 
-int isArmstrong(int);
-
-int isPalindrome(int);
-
-int isPrime(int);
-
-int isStrong(int);
-
+int isPrime(int n);
+int isStrong(int n);
+int isArmstrong(int n);
+int isPalindrome(int n);
 #endif
